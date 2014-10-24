@@ -28,6 +28,6 @@ def rndImage(name='code'):
 	name +='.jpg'
 	image.save(name,'jpeg');
 
-for x in range(10):	
+for x in range(20):	
 	name = '%d'%x
 	rndImage(name)
